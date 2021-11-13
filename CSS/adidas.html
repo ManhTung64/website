@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!-- inline -->
+	<style type="text/css"> 
+		/*.red{
+			color: red;
+			
+		}
+		.U{
+			text-decoration: underline;
+		}*/
+		body{
+			height: 2000px;
+		}
+		.black{
+			color: black;
+		}
+		.gray{
+			color: gray;
+		}
+		
+#div_all{
+	width: 100%;
+	height: 2000px;
+	background:white;
+}
+#div_tren{
+	width:100%;
+	height: 10%;
+/*	background:green;*/
+	position: fixed;
+}
+#div_tren > .left{
+	width: 20%;
+	height: 100%;
+	/*background: yellow;*/
+	float: left;
+	position: relative;
+	}
+#div_tren > .center{
+	width: 40%;
+	height:100%;
+/*	background: pink;*/
+	float: left;
+
+}
+#div_tren > .right{
+	width: 40%;
+	height:100%;
+/*	background: black;*/
+	float: left;
+}
+
+
+#div_tren > .right>.before{
+	width: 100%;
+	height: 50%;
+/*	background:gray;*/
+	text-align: center;
+}
+#div_tren > .right> .after{
+	width:100%;
+	height: 50%;
+	text-align: center;
+}	
+
+#div_duoi_giua{
+	width: 80%;
+	height: 3%;
+	background: lightgray;
+	color: black;
+	position: relative;
+	top: 5%;
+	text-align: left;
+	left: 10%;
+}
+#div_duoi_giua2{
+	width:100%;
+	height: 12%;
+	position: relative;
+	top: 7%;
+}
+#div_duoi{
+	width: 100%;
+	height: 85%;
+}
+/*#div_duoi >.left{
+	width:30%;
+	height: 100%;
+	float: left;
+/*	background: black;*/
+
+/*#div_duoi >.center{
+	width: 40%;
+	height: 100%;
+	float: left;
+	background: pink;
+}
+#div_duoi >.right{
+	width:30%;
+	height: 100%;
+	float: left;
+}*/
+
+	</style>
+</head>
+<body>
+
+	<div id="div_all">
+		<div id="div_tren">
+			
+			<div class="left" >
+					<img src="image/tải xuống.png " style="position: absolute;width: 60%;height: 150%;">
+			</div>
+			
+			<div class="center" style=" text-align: center;">
+				<br>
+				<br>
+				<a href="https://www.adidas.com.vn/vi/nam" class="black ">NAM</a>
+				<a href="https://www.adidas.com.vn/vi/nu" class="black " >NU</a>
+				<a href="https://www.adidas.com.vn/vi/tre_em" class="black">TRE EM</a>
+			</div>
+		
+			<div class="right" >
+				<div class="before">
+					<a href="https://www.adidas.com.vn/vi/help.html" class="gray">HO TRO</a>
+					<a href="https://www.adidas.com.vn/vi/account-login" class="gray">DANG NHAP</a>
+				</div>
+				<div class="after">
+					<form>
+						<input type="text" placeholder="Search" title="Enter to search">
+						<button type="submit">OK</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="div_duoi_giua" >
+
+			 Quý khách thân mến, do các quy định hiện hành của Chính Phủ liên quan đến việc phòng & chống COVID-19, thời gian giao hàng sẽ kéo dài hơn dự kiến và chúng tôi tạm thời chưa thể giao hàng đến một số khu vực. Thành thật xin lỗi vì bất kỳ sự bất tiện do vấn đề này gây ra.
+		</div>
+		<div id="div_duoi_giua2">
+			<video width="100%" height="100%" autoplay loop muted>
+  			<source src="C:\Users\HP\Downloads\1922857_-_CAM_Onsite_11.11_Game_Day_Launch_VN_HP_Masthead_2880x720_zaiopv.mp4" type="video/mp4">
+  			</video>
+		</div>
+
+		<div id="div_duoi">
+			<!-- <div class="left"></div>
+			<div class="center"></div>
+			<div class="right"></div> -->
+		</div>
+	</div>
+</body>
+</html>

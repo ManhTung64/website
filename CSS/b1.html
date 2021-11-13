@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!-- inline -->
+	<style type="text/css"> 
+		/*.red{
+			color: red;
+			
+		}
+		.U{
+			text-decoration: underline;
+		}*/
+		body{
+			height: 2000px;
+		}
+#div_tong{
+	width: 100%;
+	height: 2000px;
+	background:white;
+}
+#div_tren{
+	width:100%;
+	height: 10%;
+	background:green;
+	position: fixed;
+}
+#div_tren > .left{
+	width: 40%;
+	height: 100%;
+	background: yellow;
+	float: left;
+	position: relative;
+	}
+#div_tren > .right{
+	width: 60%;
+	height:100%;
+	background: black;
+	float: left;
+}
+#div_tren > .right>.before{
+	width: 100%;
+	height: 30%;
+	background:gray;
+	text-align: right;
+}
+#div_tren > .right> .after{
+	width:100%;
+	height: 70%;
+	background: red;
+}
+#div_duoi{
+	width: 100%;
+	height: 90%;
+	background: blue;
+	border: 2px;
+}
+#div_duoi >.left{
+	width:30%;
+	height: 100%;
+	float: left;
+	background: black;
+}
+#div_duoi >.center{
+	width: 40%;
+	height: 100%;
+	float: left;
+	background: pink;
+}
+#div_duoi >.right{
+	width:30%;
+	height: 100%;
+	float: left;
+}
+
+/*inline > internal(goi rieng thuoc tinh trong tung dong code) >expernal(link toi style trang khac)*/
+	</style>
+</head>
+<body>
+<!-- <body style ="background-image: url('C:/Users/HP/OneDrive/Máy tính/website/HTMl/245347130_1294521787687383_2189016692502115824_n.jpg'); background-repeat: no-repeat; color: white;">	
+	<!-- note: background-size:cover; background-posision: center center  -->
+	<!-- Hello world
+	<br>
+	<br>
+	Nguyen Manh Tung
+	<span class="red">GCH200064</span> 
+	<span class="U">GCH0907</span> -->
+
+	<!-- <h1 style="position: fixed;bottom: 0;right: 0;">Hello</h1> -->
+	<div id="div_tong">
+		<div id="div_tren">
+			<div class="left" >
+					<img src="image/adidas.png " style="position: absolute;width: 75%;height: 200%;">
+			</div>
+			<div class="right">
+				<div class="before">
+					<select>
+						<option>Fashion</option>
+						<option>Ny</option>
+						<option>Pet</option>
+					</select>
+					<button title="Enter to search">Search</button>
+				</div>
+				<div class="after"></div>
+			</div>
+		</div>
+		<div id="div_duoi">
+			<div class="left"></div>
+			<div class="center"></div>
+			<div class="right"></div>
+		</div>
+	</div>
+</body>
+</html>
